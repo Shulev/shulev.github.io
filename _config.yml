@@ -1,0 +1,62 @@
+# Base configuration
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Title
+name: Butternut
+subtitle: Mouth-watering asset compression
+
+# When using this template with a project page set the baseurl to '/project-name'
+# For user/organization pages set this to an empty string
+# When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
+# See http://jekyllrb.com/docs/github-pages/ for more info
+#baseurl: ''
+baseurl: '/butternut'
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: The Butternut Cooperative
+  url:
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl:
+logoalt:
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Home
+  url: ./
+  internal: true
+- text: Getting Started
+  url: example_page/
+  internal: true
+- text: API Documentation
+  url: docs/
+  internal: true
+- text: Contributing
+  url: contributing/
+  internal: true
+
+# Repo list
+# List repos that you would like to appear on the homepage here
+repos:
+- name: Butternut
+  description: source code
+  url: https://github.com/loranallensmith/butternut
+# Style Variables
+brand_color: "#bc674a"
+
+# Offline caching
+offline_cache: false
+cache_name: DOCter-v1.1
