@@ -1,0 +1,24 @@
+# Site settings
+title: Alex Jiang
+header-img: img/home-bg.jpg
+email: alex.jiang@carsales.com.au
+description: "Web, iOS, Design, Literature"
+baseurl: ""
+url: "https://pigfly.github.io"
+timezone: Australia/Victoria
+excerpt_separator: <!--more-->
+
+# social media
+twitter_username:
+github_username:  pigfly
+facebook_username:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 3
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Gems
+plugins: [jekyll-paginate, jekyll-gist]
